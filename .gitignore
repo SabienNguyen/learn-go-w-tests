@@ -1,2 +1,13 @@
 go.mod
 go.sum
+# Ignore files with extension `.class` & `.exe`
+*.class
+*.exe
+
+# Ignore `bin` dir
+bin/
+# or
+*/bin/*
+
+# Unignore all `.exe` in `bin` dir
+!*/bin/*.exe
